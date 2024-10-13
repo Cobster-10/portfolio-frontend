@@ -1,0 +1,14 @@
+.app-background {
+    background-color: #fae5cb; /* 50% transparent */
+    
+    min-height: 100vh; /* Ensure the background color covers the full viewport height */
+    background: linear-gradient(to top, #b82e1f33, #f0d0a3)
+  }
+
+.Navbar {
+  height: 12vh;  
+}
+
+.nav {
+  background-color: #f0d0a3;
+}
