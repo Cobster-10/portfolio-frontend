@@ -25,7 +25,7 @@ const ProjectImage = ({data}: ProjectImageProps ) => {
   } = useMoveCamera() as { setState: any; setRobotAnimation: any; setAnimationCase: any; };
   return (
     <>
-      <Stack border={"1px"}>
+      <Stack >
         <Flex
           width={"35vw"}
           aspectRatio={3 / 2}
@@ -34,15 +34,16 @@ const ProjectImage = ({data}: ProjectImageProps ) => {
           backgroundRepeat={"no-repeat"}
           justifyContent={"center"}
           borderRadius={"5px"}
+          
         >
           <Image
-            border={"1px"}
+            
             src={data.image? data.image: null}
-            alt="Hyperledger"
-            width={"90%"}
-            height={"fit-content"}
+            
+            maxWidth={"90%"}
+            
             alignSelf={"center"}
-            maxH={"100%"}
+            maxH={"75%"}
             objectFit={"contain"}
             borderRadius={"5px"}
             transition="transform 0.3s ease" // Adds smoothness to the scale transition

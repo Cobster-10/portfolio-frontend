@@ -55,7 +55,7 @@ const Projects = () => {
         left={"0"}
         width={"25vw"}
         height={"88vh"}
-        border={"1px"}
+        
         className={isRotating ? "cursor-grabbing" : "cursor-grab"}
       >
         <Canvas camera={{ position: [0, 0, 5], near: 0.1, far: 1000 }}>

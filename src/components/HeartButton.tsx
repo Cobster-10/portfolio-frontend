@@ -14,7 +14,7 @@ function HeartButton() {
     <Box
       as='button'
       boxSize="4rem"
-      border="1px"
+      
       position="relative"
       onClick={handleClick}
       transition="transform 0.3s ease-in-out"

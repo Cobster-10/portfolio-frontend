@@ -57,7 +57,6 @@ const Home = () => {
         display={"flex"}
         flexDirection={"column"}
         alignItems={"center"}
-        border={"1px"}
         justifyContent={"center"}
         gap={5}
       >
@@ -72,18 +71,18 @@ const Home = () => {
       <Grid
         height={canvasHeight}
         templateColumns={"repeat(12, 1fr)"}
-        border={"1px"}
+        
         templateRows={"repeat(2, 1fr)"}
       >
         <GridItem colStart={1} colEnd={8} rowStart={1} rowEnd={2}>
-          <Flex alignContent={"center"} justifyContent={"center"} border={"1px"} height={"100%"}>
-            <Heading alignSelf={"center"} border={"1px"} size={["sm", "md", "lg", "xl"]}>
+          <Flex alignContent={"center"} justifyContent={"center"}  height={"100%"}>
+            <Heading alignSelf={"center"}  size={["sm", "md", "lg", "xl"]}>
               Check out my Resume!
             </Heading>
           </Flex>
         </GridItem>
         <GridItem colStart={1} colEnd={8} rowStart={2} rowEnd={3} height={rowHeight}>
-          <Flex justifyContent={"center"} border={"1px"} height={"20vh"}>
+          <Flex justifyContent={"center"}  height={"20vh"}>
             <Link
               isExternal
               href="https://drive.google.com/file/d/1gocyZkpnJLAyVIyyGO1L1Vu7TiMmk-0g/view?usp=sharing"
@@ -93,7 +92,6 @@ const Home = () => {
                 _hover={{ transform: "translateY(-10px)" }}
                 src={resumeIcon}
                 height={"75%"}
-                border="1px"
               />
             </Link>
           </Flex>
@@ -101,7 +99,7 @@ const Home = () => {
 
         <GridItem colStart={8} colEnd={11} rowStart={1} rowEnd={3}>
           <Flex
-            border={"1px"}
+            
             className={isRotating ? "cursor-grabbing" : "cursor-grab"}
             height={canvasHeight}
           >

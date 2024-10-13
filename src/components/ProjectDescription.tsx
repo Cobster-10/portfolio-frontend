@@ -14,15 +14,15 @@ const ProjectDescription = ({ data }: ProjectDescriptionProps) => {
       gap={"5px"}
       direction="column"
       width="35vw"
-      border={"1px"}
+      
       justifyContent={"center"}
     >
-      <Flex width={"100%"} border={"1px"}>
+      <Flex width={"100%"} >
         <Heading size={["sm", "md", "lg", "xl"]}>
           {data.name ? data.name : "Project"}
         </Heading>
       </Flex>
-      <Flex alignContent={"center"} border={"1px"}>
+      <Flex alignContent={"center"} >
         <Avatar size={"md"} src={profilePic} marginRight={"1vw"} />
         <Text
           alignContent={"center"}
@@ -31,7 +31,7 @@ const ProjectDescription = ({ data }: ProjectDescriptionProps) => {
           - Jacob Kuruvilla {data.date ? data.date : null}
         </Text>
       </Flex>
-      <Box border={"1px"} display="flex" justifyContent={"center"}>
+      <Box display="flex" justifyContent={"center"}>
         <Text
           paddingX={"4px"}
           width={"100%"}
@@ -44,7 +44,7 @@ const ProjectDescription = ({ data }: ProjectDescriptionProps) => {
           {data.description ? data.description : "More info coming soon ..."}
         </Text>
       </Box>
-      <Flex wrap={"wrap"} border={"1px"} justifyContent={"flex-start"}>
+      <Flex wrap={"wrap"}  justifyContent={"flex-start"}>
         {data.Skills
           ? data.Skills.map((skill: string) => (
               <Box
