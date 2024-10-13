@@ -1,7 +1,5 @@
-import { Flex, Box, Heading, Image, Text } from "@chakra-ui/react";
-import React from "react";
+import { Flex, Box, Image, Text } from "@chakra-ui/react";
 import profilePic from "../assets/aiAvatar.webp";
-import HeartButton from "./HeartButton";
 import Description from "../assets/SelfDescription.json";
 
 const SelfPic = () => {

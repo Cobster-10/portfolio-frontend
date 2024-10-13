@@ -1,13 +1,10 @@
 import {
-  Box,
-  Flex,
   Grid,
   GridItem,
   Heading,
   Image,
   Link,
 } from "@chakra-ui/react";
-import React from "react";
 import resumeIcon from "../assets/resume.png";
 
 const Resume = () => {

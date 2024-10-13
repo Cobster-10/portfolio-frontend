@@ -1,5 +1,4 @@
-import React from "react";
-import { Avatar, Box, Flex, Stack, useColorModeValue } from "@chakra-ui/react";
+import { Avatar, Box, Flex, useColorModeValue } from "@chakra-ui/react";
 import profilePic from "../assets/Jacob Kuruvilla (1).jpg";
 const NavBar = () => {
   const linkColor = useColorModeValue("gray.600", "gray.200");
