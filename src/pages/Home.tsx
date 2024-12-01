@@ -61,7 +61,7 @@ const Home = () => {
         gap={5}
       >
         <Heading size={["sm", "md", "lg", "xl"]}>
-          Howdy! I'm Robert Lightfoot
+          Howdy! I'm Jacob Kuruvilla
         </Heading>
 
         <HeartButton></HeartButton>
